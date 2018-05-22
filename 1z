@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	
+		var i = 2;
+		var j = 2;
+	
+  while (i <= 10 ) {
+
+    while (j < i) {
+      if (i % j == 0){ 
+		  j++;
+		  break ;
+    }
+	
+  }
+	  
+    console.log( i );
+	   // простое
+	  i++;  
+ }
+	</script>
+</body>
+</html>
